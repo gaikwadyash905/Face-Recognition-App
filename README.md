@@ -1,4 +1,3 @@
-
 # Face Recognition System
 
 This project is a Python-based face recognition system using OpenCV. It utilizes Haar cascade classifiers and LBPH (Local Binary Patterns Histograms) face recognition for detecting and recognizing faces in images and real-time webcam feeds.
@@ -16,7 +15,7 @@ This project is a Python-based face recognition system using OpenCV. It utilizes
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/gaikwadyash905/face-recognition-system.git
+git clone https://github.com/gaikwadyash905/Face-Detection-App.git
 ```
 
 2. Install the required dependencies:
@@ -48,7 +47,3 @@ python face_recognizer.py
 
 # Contributing
 Contributions are welcome! If you'd like to contribute to this project, please open an issue to discuss the changes you'd like to make or submit a pull request.
-
-```bash
-Feel free to modify this README further if needed!
-```
