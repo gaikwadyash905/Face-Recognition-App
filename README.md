@@ -24,13 +24,13 @@ pip install opencv-python
 pip install numpy
 ```
 ## Usage
-1. Ensure you have the necessary files:
+1. Ensure you have:
 
 * Trained Haar cascade classifier (```haarcascade_frontalface_alt.xml```).
 * Trained LBPH face recognizer model (face_trained.yml).
 * Training images of faces stored in the ```training_faces/``` directory.
-* ```new``` file is deleted from every ```Person``` folder
-* ```changes``` file is deleted from ```training_data```
+* deleted ```new``` file from every ```Person``` folder
+
 2. Modify the file paths in the scripts (face_train.py and face_recognizer.py) according to your directory structure.
 
 3. Run the face training script to train the face recognition model:
