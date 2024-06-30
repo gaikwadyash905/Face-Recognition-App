@@ -8,7 +8,7 @@ def rescale_frame(frame, scale=0.75):
     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
 
 def load_trained_data():
-    haar_cascade_path = "haarcascade_frontalface_alt.xml"
+    haar_cascade_path = "haarcascade_frontalface_alt2.xml"
     face_recognizer_path = "trained_data/face_trained.yml"
     
     if not os.path.exists(haar_cascade_path):
