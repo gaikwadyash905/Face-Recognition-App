@@ -44,7 +44,8 @@ face_recognizer = cv.face.LBPHFaceRecognizer_create()
 
 # train the recognizer on the features list and labels list
 face_recognizer.train(features, labels)
-
+if not os.path.exists('trained_data'):
+    os.makedirs('trained_data')
 face_recognizer.save("trained_data/face_trained.yml")
 np.save("trained_data/features.npy", features)
 np.save("trained_data/labels.npy", labels)
