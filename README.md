@@ -22,6 +22,7 @@ git clone https://github.com/gaikwadyash905/Face-Detection-App.git
 ```bash
 pip install opencv-python
 pip install numpy
+pip install opencv-contrib-python
 ```
 ## Usage
 1. Ensure you have:
