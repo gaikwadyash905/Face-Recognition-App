@@ -90,7 +90,7 @@ def detect_faces_in_webcam(haar_cascade, face_recognizer, people, scale=1):
 haar_cascade, face_recognizer, people = load_trained_data()
 
 # Test image path
-test_image_path = path\to\test\image.png"
+test_image_path = "path\to\test\image.png"
 
 # Detect faces in the given image
 # detect_faces_in_image(test_image_path, haar_cascade, face_recognizer, people)
